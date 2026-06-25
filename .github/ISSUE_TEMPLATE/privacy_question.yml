@@ -1,0 +1,37 @@
+name: Privacy question
+description: Ask about how the project handles privacy and data
+title: "[Privacy]: "
+labels: ["privacy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We take privacy seriously and welcome these questions. For a full
+        overview, see [PRIVACY.md](../../PRIVACY.md),
+        [docs/PrivacyFirstDesign.md](../../docs/PrivacyFirstDesign.md), and
+        [docs/KVKK_GDPR_Checklist.md](../../docs/KVKK_GDPR_Checklist.md).
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: How does the project handle ...?
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Data storage / retention
+        - Anonymity / no identity tracking
+        - Raw frames / debug imagery
+        - Compliance (KVKK / GDPR)
+        - Deployment / local-first
+        - Other
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Note
+      options:
+        - label: This is a general question, not a security vulnerability (those go to SECURITY.md).
+          required: true

@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-vision-analytics",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Privacy-first open-source computer vision toolkit for restaurant occupancy, queue, table usage and customer flow analytics.",
+  "license": "MIT",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "frontend": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:install": "npm --prefix frontend install"
+  },
+  "keywords": [
+    "computer-vision",
+    "restaurant",
+    "analytics",
+    "privacy-first",
+    "occupancy",
+    "dashboard"
+  ]
+}

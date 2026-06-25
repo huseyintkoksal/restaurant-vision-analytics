@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------------------
+# Restaurant Vision Analytics — Docker Compose (development / demo)
+# One command:  docker compose up --build
+#   backend  -> http://localhost:8000  (FastAPI + demo data + WebSocket)
+#   frontend -> http://localhost:5173  (Vite dashboard)
+# SQLite data is persisted in a named volume; raw frames are NEVER stored.
+# ---------------------------------------------------------------------------
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: restaurant-vision-analytics-backend:dev
+    container_name: rva-backend
+    environment:
+      APP_ENV: development
+      DATABASE_URL: sqlite:////data/rva.db
+      ENABLE_DEMO_MODE: "true"
+      ENABLE_RAW_FRAME_STORAGE: "false"
+      DATA_RETENTION_DAYS: "7"
+      CORS_ORIGINS: "http://localhost:5173,http://localhost:3000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - rva-data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0) if urllib.request.urlopen('http://localhost:8000/health').status==200 else sys.exit(1)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    image: restaurant-vision-analytics-frontend:dev
+    container_name: rva-frontend
+    environment:
+      # The browser talks to the backend on the host-published port.
+      VITE_API_BASE_URL: "http://localhost:8000"
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  rva-data:
+    driver: local

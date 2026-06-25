@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a problem so we can fix it
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug! Please do **not** include any
+        real customer imagery or personal data in this report.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+      placeholder: When I ... I expected ... but got ...
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `make demo`
+        2. Open ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs / output
+      description: Paste any error output. Remove anything sensitive.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      placeholder: v0.1.0 or commit sha
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Backend / API
+        - Frontend / Dashboard
+        - Vision / Analytics
+        - Docker / Deployment
+        - Docs
+        - Other
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: OS, Python version, Node version, browser
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Confirmation
+      options:
+        - label: This report contains no real customer footage or personal data.
+          required: true

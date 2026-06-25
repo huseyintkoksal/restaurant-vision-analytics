@@ -1,0 +1,89 @@
+# ---------------------------------------------------------------------------
+# Restaurant Vision Analytics — .gitignore
+# Privacy-first: never commit secrets, credentials, raw frames, or media.
+# ---------------------------------------------------------------------------
+
+# --- Secrets & environment ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+*.secret
+
+# --- Camera / media / captured data (NEVER commit) ---
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.rtsp
+captures/
+frames/
+recordings/
+raw_frames/
+debug_frames/
+demo/screenshots/*.png
+demo/screenshots/*.jpg
+demo/gifs/*.gif
+!demo/screenshots/.gitkeep
+!demo/gifs/.gitkeep
+# Committed launch assets (curated, synthetic-data screenshots — safe to track).
+!demo/screenshots/dashboard-live.png
+!demo/screenshots/privacy-page.png
+!demo/screenshots/zone-analytics.png
+!demo/gifs/live-dashboard-demo.gif
+
+# --- Model weights (downloaded by the user, never bundled) ---
+*.pt
+*.pth
+*.onnx
+*.weights
+*.engine
+models/weights/
+
+# --- Databases ---
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+
+# --- Node / Frontend ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

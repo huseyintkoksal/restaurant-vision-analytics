@@ -1,0 +1,19 @@
+{
+  "name": "Fast Food Counter",
+  "description": "High-throughput counter service with a long order queue, multiple tills, and a pickup area.",
+  "camera_id": "demo-camera-1",
+  "zones": [
+    { "id": "entrance-1", "name": "Entrance", "type": "entrance", "polygon": [[0.02, 0.8], [0.2, 0.8], [0.2, 0.98], [0.02, 0.98]] },
+    { "id": "queue-1", "name": "Order Queue", "type": "queue", "capacity": 10, "polygon": [[0.12, 0.4], [0.46, 0.4], [0.46, 0.78], [0.12, 0.78]] },
+    { "id": "cashier-1", "name": "Till 1", "type": "cashier", "polygon": [[0.46, 0.34], [0.58, 0.34], [0.58, 0.5], [0.46, 0.5]] },
+    { "id": "cashier-2", "name": "Till 2", "type": "cashier", "polygon": [[0.46, 0.52], [0.58, 0.52], [0.58, 0.68], [0.46, 0.68]] },
+    { "id": "pickup-1", "name": "Pickup Area", "type": "pickup_area", "polygon": [[0.46, 0.1], [0.62, 0.1], [0.62, 0.3], [0.46, 0.3]] },
+    { "id": "dining-1", "name": "Seating Area", "type": "dining_area", "capacity": 16, "polygon": [[0.62, 0.1], [0.96, 0.1], [0.96, 0.92], [0.62, 0.92]] },
+    { "id": "table-1", "name": "Booth 1", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.64, 0.12], [0.78, 0.12], [0.78, 0.32], [0.64, 0.32]] },
+    { "id": "table-2", "name": "Booth 2", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.8, 0.12], [0.94, 0.12], [0.94, 0.32], [0.8, 0.32]] },
+    { "id": "table-3", "name": "Booth 3", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.64, 0.4], [0.78, 0.4], [0.78, 0.6], [0.64, 0.6]] },
+    { "id": "table-4", "name": "Booth 4", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.8, 0.4], [0.94, 0.4], [0.94, 0.6], [0.8, 0.6]] },
+    { "id": "table-5", "name": "Booth 5", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.64, 0.68], [0.78, 0.68], [0.78, 0.88], [0.64, 0.88]] },
+    { "id": "table-6", "name": "Booth 6", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.8, 0.68], [0.94, 0.68], [0.94, 0.88], [0.8, 0.88]] }
+  ]
+}

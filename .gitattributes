@@ -1,0 +1,31 @@
+# Normalize line endings: store text as LF in the repo, check out native.
+* text=auto eol=lf
+
+# Explicit text types
+*.py    text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.js    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.toml  text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+Makefile text eol=lf
+Dockerfile text eol=lf
+
+# Windows scripts keep CRLF
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+
+# Binary assets — never normalize
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.pt    binary
+*.onnx  binary

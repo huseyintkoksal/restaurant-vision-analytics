@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Features must stay within the project's
+        **privacy-first, anonymous-analytics** scope. Requests for facial
+        recognition, biometrics, demographic/emotion inference, or per-person
+        tracking are out of scope and will be declined.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      placeholder: As an operator, I want ... so that ...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Describe the feature and how it might work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request keeps analytics anonymous and aggregate.
+          required: true
+        - label: This request does not add identification, biometrics, or per-person tracking.
+          required: true

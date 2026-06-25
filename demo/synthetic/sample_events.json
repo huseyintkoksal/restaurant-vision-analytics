@@ -1,0 +1,2064 @@
+{
+  "description": "Synthetic, anonymous restaurant flow generated for demos. No imagery, identities, or personal attributes.",
+  "frames": 120,
+  "peak_occupancy": 40,
+  "events": [
+    {
+      "timestamp": "2026-06-24T21:43:14.572518Z",
+      "occupancy_total": 0,
+      "occupancy_by_type": {},
+      "queue": {
+        "count": 0,
+        "pressure_score": 0.0,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.572581Z",
+      "occupancy_total": 0,
+      "occupancy_by_type": {},
+      "queue": {
+        "count": 0,
+        "pressure_score": 0.0,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.572703Z",
+      "occupancy_total": 1,
+      "occupancy_by_type": {
+        "entrance": 1
+      },
+      "queue": {
+        "count": 0,
+        "pressure_score": 0.0,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.572795Z",
+      "occupancy_total": 1,
+      "occupancy_by_type": {
+        "queue": 1
+      },
+      "queue": {
+        "count": 1,
+        "pressure_score": 0.167,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.572876Z",
+      "occupancy_total": 1,
+      "occupancy_by_type": {
+        "queue": 1
+      },
+      "queue": {
+        "count": 1,
+        "pressure_score": 0.167,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.572952Z",
+      "occupancy_total": 1,
+      "occupancy_by_type": {
+        "queue": 1
+      },
+      "queue": {
+        "count": 1,
+        "pressure_score": 0.167,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.573026Z",
+      "occupancy_total": 1,
+      "occupancy_by_type": {
+        "queue": 1
+      },
+      "queue": {
+        "count": 1,
+        "pressure_score": 0.167,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.573177Z",
+      "occupancy_total": 3,
+      "occupancy_by_type": {
+        "queue": 1,
+        "entrance": 2
+      },
+      "queue": {
+        "count": 1,
+        "pressure_score": 0.167,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.573339Z",
+      "occupancy_total": 1,
+      "occupancy_by_type": {
+        "queue": 1
+      },
+      "queue": {
+        "count": 1,
+        "pressure_score": 0.167,
+        "status": "clear",
+        "estimated_wait_pressure": "low"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.573497Z",
+      "occupancy_total": 3,
+      "occupancy_by_type": {
+        "queue": 3
+      },
+      "queue": {
+        "count": 3,
+        "pressure_score": 0.5,
+        "status": "moderate",
+        "estimated_wait_pressure": "medium"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.573639Z",
+      "occupancy_total": 3,
+      "occupancy_by_type": {
+        "queue": 3
+      },
+      "queue": {
+        "count": 3,
+        "pressure_score": 0.5,
+        "status": "moderate",
+        "estimated_wait_pressure": "medium"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.573813Z",
+      "occupancy_total": 4,
+      "occupancy_by_type": {
+        "queue": 3,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 3,
+        "pressure_score": 0.5,
+        "status": "moderate",
+        "estimated_wait_pressure": "medium"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.574067Z",
+      "occupancy_total": 5,
+      "occupancy_by_type": {
+        "queue": 3,
+        "entrance": 2
+      },
+      "queue": {
+        "count": 3,
+        "pressure_score": 0.5,
+        "status": "moderate",
+        "estimated_wait_pressure": "medium"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.574314Z",
+      "occupancy_total": 6,
+      "occupancy_by_type": {
+        "queue": 6
+      },
+      "queue": {
+        "count": 6,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.574595Z",
+      "occupancy_total": 7,
+      "occupancy_by_type": {
+        "queue": 6,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 6,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.574910Z",
+      "occupancy_total": 6,
+      "occupancy_by_type": {
+        "queue": 6
+      },
+      "queue": {
+        "count": 6,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.575471Z",
+      "occupancy_total": 10,
+      "occupancy_by_type": {
+        "cashier": 1,
+        "queue": 6,
+        "entrance": 3
+      },
+      "queue": {
+        "count": 6,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.575882Z",
+      "occupancy_total": 8,
+      "occupancy_by_type": {
+        "dining_area": 1,
+        "queue": 6,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 6,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 0,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.576251Z",
+      "occupancy_total": 10,
+      "occupancy_by_type": {
+        "dining_area": 1,
+        "table": 1,
+        "queue": 8,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 8,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 1,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.576622Z",
+      "occupancy_total": 10,
+      "occupancy_by_type": {
+        "dining_area": 2,
+        "table": 2,
+        "queue": 8
+      },
+      "queue": {
+        "count": 8,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 2,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.576987Z",
+      "occupancy_total": 10,
+      "occupancy_by_type": {
+        "dining_area": 2,
+        "table": 2,
+        "queue": 8,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 8,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 2,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.577441Z",
+      "occupancy_total": 13,
+      "occupancy_by_type": {
+        "dining_area": 2,
+        "table": 2,
+        "cashier": 2,
+        "queue": 6,
+        "entrance": 3
+      },
+      "queue": {
+        "count": 6,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 2,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.577998Z",
+      "occupancy_total": 11,
+      "occupancy_by_type": {
+        "dining_area": 3,
+        "table": 3,
+        "queue": 7,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 7,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 3,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.578506Z",
+      "occupancy_total": 14,
+      "occupancy_by_type": {
+        "dining_area": 4,
+        "table": 4,
+        "queue": 9,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 9,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 4,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.579022Z",
+      "occupancy_total": 15,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 5,
+        "queue": 9,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 9,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.579529Z",
+      "occupancy_total": 16,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 10
+      },
+      "queue": {
+        "count": 10,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.580104Z",
+      "occupancy_total": 19,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 10,
+        "entrance": 3
+      },
+      "queue": {
+        "count": 10,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.580790Z",
+      "occupancy_total": 19,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 11,
+        "entrance": 2
+      },
+      "queue": {
+        "count": 11,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.581514Z",
+      "occupancy_total": 23,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 15,
+        "entrance": 2
+      },
+      "queue": {
+        "count": 15,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.582257Z",
+      "occupancy_total": 25,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 18,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 18,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.582999Z",
+      "occupancy_total": 25,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 19
+      },
+      "queue": {
+        "count": 19,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.583727Z",
+      "occupancy_total": 25,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 19
+      },
+      "queue": {
+        "count": 19,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.584462Z",
+      "occupancy_total": 25,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 19
+      },
+      "queue": {
+        "count": 19,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.585235Z",
+      "occupancy_total": 26,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 19,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 19,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.586005Z",
+      "occupancy_total": 25,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 19
+      },
+      "queue": {
+        "count": 19,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.586773Z",
+      "occupancy_total": 26,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 20
+      },
+      "queue": {
+        "count": 20,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.587577Z",
+      "occupancy_total": 27,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 20,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 20,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.588381Z",
+      "occupancy_total": 27,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 21
+      },
+      "queue": {
+        "count": 21,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.589215Z",
+      "occupancy_total": 28,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 21,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 21,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.590317Z",
+      "occupancy_total": 28,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 21,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 21,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.591550Z",
+      "occupancy_total": 29,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 23
+      },
+      "queue": {
+        "count": 23,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.592468Z",
+      "occupancy_total": 30,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 23,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 23,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.593439Z",
+      "occupancy_total": 31,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 24,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 24,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.594403Z",
+      "occupancy_total": 31,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 24,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 24,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.595388Z",
+      "occupancy_total": 32,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 25,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 25,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.596415Z",
+      "occupancy_total": 32,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 26
+      },
+      "queue": {
+        "count": 26,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.597422Z",
+      "occupancy_total": 34,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 28
+      },
+      "queue": {
+        "count": 28,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.598468Z",
+      "occupancy_total": 35,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 28,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 28,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.599506Z",
+      "occupancy_total": 35,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 29
+      },
+      "queue": {
+        "count": 29,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.600560Z",
+      "occupancy_total": 35,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 29
+      },
+      "queue": {
+        "count": 29,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.601636Z",
+      "occupancy_total": 36,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 29,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 29,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.602721Z",
+      "occupancy_total": 35,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 29
+      },
+      "queue": {
+        "count": 29,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.603901Z",
+      "occupancy_total": 37,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 30,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 30,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.605195Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 31,
+        "entrance": 2
+      },
+      "queue": {
+        "count": 31,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.606448Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 32
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.607694Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.608968Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.610253Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 5,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.611581Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 4,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.612948Z",
+      "occupancy_total": 37,
+      "occupancy_by_type": {
+        "dining_area": 4,
+        "table": 4,
+        "queue": 32,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 4,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.614348Z",
+      "occupancy_total": 37,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 5,
+        "queue": 32
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 4,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.615725Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 32
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 4,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.617047Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "entrance": 1,
+        "queue": 32
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.618289Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 32
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.619514Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 32,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.620833Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.622093Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.623454Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.624767Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.626081Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 5,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.627420Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 5,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.628752Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 5,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.630011Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "entrance": 1,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.631248Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.632583Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 5,
+        "queue": 32,
+        "cashier": 1,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.633838Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.635103Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.636442Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 32,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.637742Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "entrance": 1,
+        "queue": 32,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.639048Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "cashier": 1,
+        "queue": 32
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.640371Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 32,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.641675Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.642958Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.644251Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.645520Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "entrance": 1,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.646761Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.648027Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.649295Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.650553Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.651802Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.653116Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.654418Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.655743Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.657074Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 5,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.658393Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.659704Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 7,
+        "table": 7,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.661021Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.662305Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.663607Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.664896Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.666352Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.667773Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 5,
+        "queue": 33,
+        "entrance": 1,
+        "cashier": 1
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.669188Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "dining_area": 5,
+        "table": 4,
+        "queue": 31,
+        "cashier": 2
+      },
+      "queue": {
+        "count": 31,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 4,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.670511Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "cashier": 1,
+        "dining_area": 5,
+        "table": 5,
+        "queue": 32
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.671763Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "cashier": 1,
+        "dining_area": 6,
+        "table": 6,
+        "queue": 31
+      },
+      "queue": {
+        "count": 31,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.673002Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "queue": 32,
+        "dining_area": 6,
+        "table": 6,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.674258Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "queue": 32,
+        "dining_area": 6,
+        "table": 6,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.675559Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "queue": 32,
+        "dining_area": 6,
+        "table": 6,
+        "entrance": 1
+      },
+      "queue": {
+        "count": 32,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.676855Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "queue": 34,
+        "dining_area": 6,
+        "table": 6
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.678145Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "entrance": 1,
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.679442Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "entrance": 1,
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.680693Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.681981Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 33
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.683292Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "dining_area": 6,
+        "table": 6,
+        "queue": 34
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.684638Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "queue": 34,
+        "dining_area": 5,
+        "table": 5
+      },
+      "queue": {
+        "count": 34,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.685993Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "queue": 33,
+        "dining_area": 5,
+        "table": 5
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.687344Z",
+      "occupancy_total": 38,
+      "occupancy_by_type": {
+        "queue": 33,
+        "dining_area": 5,
+        "table": 5
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 5,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.688638Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "queue": 33,
+        "dining_area": 6,
+        "table": 6
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.689909Z",
+      "occupancy_total": 40,
+      "occupancy_by_type": {
+        "entrance": 1,
+        "queue": 33,
+        "dining_area": 6,
+        "table": 6
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    },
+    {
+      "timestamp": "2026-06-24T21:43:14.691158Z",
+      "occupancy_total": 39,
+      "occupancy_by_type": {
+        "queue": 33,
+        "dining_area": 6,
+        "table": 6
+      },
+      "queue": {
+        "count": 33,
+        "pressure_score": 1.0,
+        "status": "congested",
+        "estimated_wait_pressure": "very_high"
+      },
+      "tables_occupied": 6,
+      "tables_total": 6
+    }
+  ]
+}

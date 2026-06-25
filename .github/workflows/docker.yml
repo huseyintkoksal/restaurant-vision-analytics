@@ -1,0 +1,23 @@
+name: Docker
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  compose:
+    name: Validate & build images
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate compose file
+        run: docker compose config
+
+      - name: Build backend image
+        run: docker compose build backend
+
+      - name: Build frontend image
+        run: docker compose build frontend

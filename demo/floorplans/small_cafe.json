@@ -1,0 +1,15 @@
+{
+  "name": "Small Cafe",
+  "description": "A compact cafe: one entrance, a short order queue, a cashier, and four tables.",
+  "camera_id": "demo-camera-1",
+  "zones": [
+    { "id": "entrance-1", "name": "Entrance", "type": "entrance", "polygon": [[0.02, 0.78], [0.22, 0.78], [0.22, 0.98], [0.02, 0.98]] },
+    { "id": "queue-1", "name": "Order Queue", "type": "queue", "capacity": 5, "polygon": [[0.18, 0.5], [0.42, 0.5], [0.42, 0.74], [0.18, 0.74]] },
+    { "id": "cashier-1", "name": "Cashier", "type": "cashier", "polygon": [[0.39, 0.42], [0.53, 0.42], [0.53, 0.58], [0.39, 0.58]] },
+    { "id": "dining-1", "name": "Dining Area", "type": "dining_area", "capacity": 8, "polygon": [[0.54, 0.18], [0.92, 0.18], [0.92, 0.86], [0.54, 0.86]] },
+    { "id": "table-1", "name": "Table 1", "type": "table", "capacity": 2, "attributes": { "seats": 2 }, "polygon": [[0.55, 0.19], [0.69, 0.19], [0.69, 0.41], [0.55, 0.41]] },
+    { "id": "table-2", "name": "Table 2", "type": "table", "capacity": 2, "attributes": { "seats": 2 }, "polygon": [[0.71, 0.19], [0.85, 0.19], [0.85, 0.41], [0.71, 0.41]] },
+    { "id": "table-3", "name": "Table 3", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.55, 0.63], [0.69, 0.63], [0.69, 0.85], [0.55, 0.85]] },
+    { "id": "table-4", "name": "Table 4", "type": "table", "capacity": 4, "attributes": { "seats": 4 }, "polygon": [[0.71, 0.63], [0.85, 0.63], [0.85, 0.85], [0.71, 0.85]] }
+  ]
+}

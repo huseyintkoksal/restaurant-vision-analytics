@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #0a0f1a;
+  color: #e2e8f0;
+  font-feature-settings: "tnum" 1;
+}
+
+@layer components {
+  .panel {
+    @apply rounded-xl border border-ink-800 bg-ink-900/80 p-4 shadow-sm;
+  }
+
+  .panel-title {
+    @apply text-xs font-semibold uppercase tracking-wider text-slate-400;
+  }
+
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium;
+  }
+}
+
+/* Thin, unobtrusive scrollbars to match the dashboard aesthetic. */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
